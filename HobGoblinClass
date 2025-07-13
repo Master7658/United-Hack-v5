@@ -1,0 +1,8 @@
+public class HobGoblin extends Monster
+{
+    protected int potion;
+    public HobGoblin() {
+    super("Hob Goblin", (randomSet() + 7), (randomSet() + 5), (randomSet() + 3), 0, (randomSet() + 4));
+    }
+
+}
