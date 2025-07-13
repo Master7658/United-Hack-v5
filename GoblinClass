@@ -1,0 +1,12 @@
+import java.util.*;
+public class Goblin extends Monster
+{
+    public Goblin() {
+    super("Goblin", (5 + randomSet()), (randomSet() + 3), (randomSet() + 2), 0, 0);
+    
+    }
+}
+
+
+
+
