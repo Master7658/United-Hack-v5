@@ -1,0 +1,12 @@
+public class CaveTroll extends Monster
+{
+    
+    public CaveTroll () {
+    super("Cave Troll", (randomSet() + 7), (randomSet() + 5), 0, (randomSet() + 2), 0);
+    
+    }
+}
+
+
+
+
