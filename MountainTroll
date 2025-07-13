@@ -1,0 +1,7 @@
+public class MountainTroll extends Monster
+{
+    public MountainTroll () {
+    super("Mountain Troll", (randomSet() + 11), (randomSet() + 3), 0, (randomSet() + 3), 0);
+    
+    }
+}
