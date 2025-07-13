@@ -1,0 +1,31 @@
+import java.util.*;
+public class Player extends Characters
+{
+    private int maxHp = 50;
+    Random randy = new Random();
+    
+    public Player() {
+    super("Monster Killer", 50, 2, 1);
+    }
+    
+    public int attack() {
+    int damage = randy.nextInt(5) + 2;
+    double magicChance = randy.nextDouble();
+        if(magicChance < 0.25) {
+        damage += randy.nextInt(3) + 1;
+        }
+        
+    return damage;
+    }
+    
+    public void healing(int heals) {
+    health += heals;
+    if(health > maxHp) {
+    health = maxHp;
+    }
+    }
+}
+
+
+
+
